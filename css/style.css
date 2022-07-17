@@ -1,10 +1,12 @@
 *{
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0;
     margin: 0;
 }
 html{
     scroll-behavior: smooth;
 }
+/* header section start */
 header{
     background-image: url(../image/pexels-henry-&-co-1251262.jpg);
     background-position: center;
@@ -12,6 +14,56 @@ header{
     background-size: cover;
     background-attachment: fixed;
 }
-.banner-container{
-    height: 100vh;
+.navbar{
+    padding: 1% 5%;
+    background-color: rgb(0, 0, 0, 0.1);
 }
+.nav-link{
+    transition: 0.2s;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+.nav-link:hover{
+    background-color: #31d2f2;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.banner-container{
+    height: 90vh;
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 21px #000,0 0 21px #000;
+}
+/* header section end */
+
+/* main section start */
+
+/* features start */
+#features{
+    padding: 5% 10%;
+    background-color: #3AB4F2;
+}
+.features-col{
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 8px 10px 0px #00000033;
+}
+.icon-style{
+    background-color: white;
+    color:  #3AB4F2;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* feactures end */
+
+/* main section end */
